@@ -54,11 +54,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Profesión"
-        android:inputType="number"
         android:layout_marginBottom="16dp"
         tools:ignore="MissingConstraints" />
 
-    <!-- Botones para editar, actualizar y eliminar -->
+    <!-- Botones para editar, guardar y eliminar -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,12 +72,12 @@
             android:layout_height="wrap_content"
             android:text="Editar"/>
 
-        <!-- Botón Actualizar -->
+        <!-- Botón Guardar -->
         <Button
-            android:id="@+id/btnActualizar"
+            android:id="@+id/btnGuardar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Actualizar"
+            android:text="Guardar"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"/>
 

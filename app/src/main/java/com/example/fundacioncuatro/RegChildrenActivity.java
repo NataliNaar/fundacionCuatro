@@ -46,24 +46,9 @@ public class RegChildrenActivity extends AppCompatActivity {
         btnEliminar = findViewById(R.id.btnEliminar);
         btnRegresar = findViewById(R.id.btnRegresar);
 
-        btnActualizar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                guardarDatos());
-            }
-        });
-        btnEditar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                editarDatos());
-            }
-        });
-        btnEliminar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                eliminarDatos());
-            }
-        });
+        btnActualizar.setOnClickListener(v -> guardarDatos());
+        btnEditar.setOnClickListener(v -> editarDatos());
+        btnEliminar.setOnClickListener(v -> eliminarDatos());
     }
     private void guardarDatos() {
         String id = etNumeroIdentificacion.getText().toString();
