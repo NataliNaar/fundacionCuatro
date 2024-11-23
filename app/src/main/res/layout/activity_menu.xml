@@ -5,6 +5,71 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/img_2"
     tools:context=".MenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="366dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557">
+
+        <Button
+            android:id="@+id/btnRegistrationChildren"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Registro de Niños" />
+
+        <Button
+            android:id="@+id/btnRegistrationAdult"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Registro de Acudientes" />
+
+        <Button
+            android:id="@+id/btnRegistrationDonate"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Registro de Donantes" />
+
+        <Button
+            android:id="@+id/btnRegistrationVoluntary"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Registro de Voluntarios" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="131dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp"
+            android:padding="10dp"
+            android:text="Regresar" />
+    </LinearLayout>
+
+    <!-- Agregando restricciones al ImageView -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="191dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_1_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
