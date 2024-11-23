@@ -16,7 +16,7 @@
             android:name=".RegEventActivity"
             android:exported="false" />
         <activity
-            android:name=".RegAdultActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".RegChildrenActivity"
@@ -25,7 +25,7 @@
             android:name=".MenuActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".RegAdultActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

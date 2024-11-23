@@ -1,32 +1,13 @@
 {
   "project_info": {
-    "project_number": "48064305683",
-    "project_id": "masvitamina-9b6b0",
-    "storage_bucket": "masvitamina-9b6b0.firebasestorage.app"
+    "project_number": "822991565",
+    "project_id": "prjfvitamina",
+    "storage_bucket": "prjfvitamina.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:48064305683:android:0b543602ae942904157de6",
-        "android_client_info": {
-          "package_name": "com.example.fundacion"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyChXkf7NLri2cynZaJNWfs66p4Qf9_q82Q"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:48064305683:android:c6d1b9de5f0681e9157de6",
+        "mobilesdk_app_id": "1:822991565:android:1fbf26fc17a3f996812784",
         "android_client_info": {
           "package_name": "com.example.fundacioncuatro"
         }
@@ -34,26 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyChXkf7NLri2cynZaJNWfs66p4Qf9_q82Q"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:48064305683:android:ab095bbef47f2e23157de6",
-        "android_client_info": {
-          "package_name": "com.example.fundaciont"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyChXkf7NLri2cynZaJNWfs66p4Qf9_q82Q"
+          "current_key": "AIzaSyAqqtug7Tbbq8SfQnB215OMXC7-oZNxoG8"
         }
       ],
       "services": {
